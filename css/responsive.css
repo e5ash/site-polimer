@@ -1,0 +1,171 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 992px; }
+  #header #panel .nav {
+    margin-right: 0; }
+    #header #panel .nav a {
+      padding-left: 10px; }
+      #header #panel .nav a:after {
+        margin-left: 10px; }
+      #header #panel .nav a:last-of-type {
+        padding-right: 10px; }
+  #header .contacts .address, #header .contacts .tels {
+    float: none;
+    margin-right: 320px; }
+  #header .contacts .address {
+    margin-bottom: 20px; }
+  #header .contacts .tels {
+    width: 300px;
+    margin-right: 0;
+    margin-bottom: 20px; }
+    #header .contacts .tels .icon {
+      margin-right: 25px; }
+  #header .contacts .callback {
+    float: right;
+    margin-top: -100px; }
+  #main.vlozh {
+    margin-top: 0; }
+  #main #services img {
+    display: block;
+    width: 330px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 5px !important; }
+  #main #services .col.id1 img {
+    margin-bottom: 20px !important; }
+  #main #services .col.id2 {
+    margin-top: 37px; }
+  #main #services .col.id3 {
+    margin-top: -15px; }
+  #main #content .contacts .map {
+    width: 600px; }
+  #main #advantages .col {
+    width: 20%;
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0 !important; }
+  #main #produce .col {
+    margin-bottom: 50px;
+    width: 21.2%;
+    margin-right: 5%; }
+    #main #produce .col:nth-of-type(4) {
+      margin-right: 0; }
+    #main #produce .col img {
+      width: 100%; }
+  #footer .address, #footer .tel {
+    display: none; } }
+
+@media screen and (max-width: 1040px) {
+  #main #content .contacts .map {
+    width: 55%; } }
+
+@media screen and (max-width: 992px) {
+  h1, #main #tel a {
+    font-size: 24px; }
+  h2, #main #advantages .title, #main #produce .title, #main #tel p, .orderForm span {
+    font-size: 20px;
+    margin-bottom: 14px; }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px; }
+  #header #panel {
+    background: none; }
+    #header #panel .logo {
+      left: 0;
+      position: relative;
+      width: 100%;
+      background-position: top center;
+      background-repeat: no-repeat; }
+    #header #panel .nav {
+      position: relative;
+      width: 100%;
+      margin-left: -15px;
+      text-align: center;
+      margin: 20px auto 0; }
+      #header #panel .nav a {
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #000;
+        width: 200px;
+        margin: 5px auto; }
+        #header #panel .nav a:hover, #header #panel .nav a.select {
+          border-top: none;
+          border-left: 3px solid #fcac14; }
+        #header #panel .nav a:after {
+          display: none; }
+  #header .contacts {
+    float: none;
+    width: 100%; }
+    #header .contacts .col {
+      float: none;
+      margin: 0 auto 30px;
+      width: 280px; }
+  #main #content img {
+    float: none;
+    margin: 0 auto 15px !important; }
+  #main #services .col, #main #advantages .col {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px; }
+  #main #produce .col {
+    width: 30%;
+    margin-right: 5% !important; }
+    #main #produce .col:nth-of-type(3), #main #produce .col:nth-of-type(6) {
+      margin-right: 0 !important; }
+  #main #tel p {
+    margin-bottom: 0 !important; }
+  #footer .col {
+    float: none;
+    width: 280px;
+    margin: 0 auto 12px !important; }
+  #footer .logo {
+    display: block;
+    margin: 0 auto; }
+  #footer .copy {
+    display: none; }
+  #footer #x-aura {
+    width: 106px;
+    margin: 11px auto 0; } }
+
+@media screen and (max-width: 920px) {
+  #main #content .contacts .data {
+    float: none;
+    margin: 0 auto 20px; }
+  #main #content .contacts .map {
+    width: 100%; }
+    #main #content .contacts .map > ymaps {
+      height: 300px !important; } }
+
+@media screen and (max-width: 450px) {
+  #main #produce .col {
+    width: 45%; }
+    #main #produce .col:nth-of-type(odd) {
+      margin-right: 10% !important; }
+    #main #produce .col:nth-of-type(even) {
+      margin-right: 0 !important; }
+  .orderForm .container {
+    width: 230px; }
+  .orderForm .btn {
+    width: 230px; }
+  .orderForm .closeBtn {
+    top: -10px;
+    right: -10px; } }
+
+@media screen and (max-width: 420px) {
+  #main #content .contacts .data {
+    width: auto; }
+    #main #content .contacts .data br {
+      display: none; }
+    #main #content .contacts .data .btn {
+      width: auto; } }
+
+@media screen and (max-width: 380px) {
+  #main #services .col img {
+    width: 100%; } }
+
+@media screen and (max-height: 700px) {
+  .orderForm .container {
+    top: 20px; } }
